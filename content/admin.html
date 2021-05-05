@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrator Page</title>
+</head>
+
+<body>
+    <form action="/post" method="post">
+        <label class="label" for="title">タイトル</label>
+        <input id="title" type="text" name="title">
+        <label class="label" for="content">本文</label>
+        <textarea rows="4" id="content" placeholder="記事を書きましょう" name="content"></textarea>
+        <input type="submit">
+    </form>
+</body>
+<style>
+    label,
+    input[type=text] {
+        display: block;
+    }
+</style>
+
+</html>
